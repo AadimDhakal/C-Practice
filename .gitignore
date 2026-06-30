@@ -1,0 +1,71 @@
+# Object files
+*.o
+*.obj
+
+# Static libraries
+*.a
+*.lib
+
+# Shared libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug symbols
+*.dSYM/
+*.pdb
+
+# Coverage files
+*.gcno
+*.gcda
+*.gcov
+
+# Profiling data
+gmon.out
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Build directories
+build/
+bin/
+obj/
+out/
+dist/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# Autotools
+autom4te.cache/
+aclocal.m4
+configure
+config.log
+config.status
+libtool
+m4/
+Makefile.in
+
+# Generated dependency files
+*.d
+
+# Editor/OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
